@@ -46,13 +46,13 @@ nav {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
-  text-decoration-color: grey;
+  text-decoration-color: white;
 }
 
 a:hover {
-  color: white;
+  color: grey;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -60,7 +60,6 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  color: white;
 }
 
 .logo:hover {
@@ -68,9 +67,6 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
-#desktop-nav {
-  background-color: #2d2e32; 
-}
 
 #hamburger-nav {
   display: none;
@@ -422,10 +418,6 @@ article .icon {
 
 .contact-info-container p {
   font-size: larger;
-}
-
-.contact-info-container a{
-  color: black;
 }
 
 .contact-icon {
