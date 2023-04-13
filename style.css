@@ -394,7 +394,8 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 40px;
+  margin-top: 60px;
+  /* padding-top: 50px; */
 }
 
 .contact-info-upper-container {
