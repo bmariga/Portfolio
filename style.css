@@ -46,7 +46,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -60,6 +60,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: white;
 }
 
 .logo:hover {
