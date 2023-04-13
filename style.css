@@ -67,6 +67,9 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
+#desktop-nav {
+  background-color: #2d2e32; 
+}
 
 #hamburger-nav {
   display: none;
