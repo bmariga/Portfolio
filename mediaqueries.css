@@ -49,11 +49,11 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 50vh;
     margin-bottom: 0;
   }
   #about {
-    margin-top: 5px;
+    margin-top: 20px;
   }
   article {
     font-size: 1rem;
