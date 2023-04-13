@@ -424,6 +424,10 @@ article .icon {
   font-size: larger;
 }
 
+.contact-info-container a{
+  color: black;
+}
+
 .contact-icon {
   cursor: default;
 }
