@@ -48,7 +48,7 @@ nav {
 a {
   color: white;
   text-decoration: none;
-  text-decoration-color: white;
+  text-decoration-color: grey;
 }
 
 a:hover {
