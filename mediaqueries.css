@@ -63,7 +63,6 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
@@ -101,6 +100,9 @@
   }
   .nav-links-container {
     margin-top: 40px;
-
+  }
+  .contact-info-upper-container {
+    display: flex;
+    flex-flow: column;
   }
 }
