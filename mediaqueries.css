@@ -104,5 +104,6 @@
   .contact-info-upper-container {
     display: flex;
     flex-flow: column;
+    gap: 0.2rem;
   }
 }
