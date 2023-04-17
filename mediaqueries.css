@@ -48,6 +48,10 @@
   footer {
     height: 40vh;
   }
+  #contact {
+    margin-bottom: 30px;
+  }
+
   #profile {
     height: 70vh;
     margin-bottom: 0;
