@@ -19,6 +19,15 @@ p {
   color: rgb(85, 85, 85);
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  top: 0;
+  opacity: 0.9;
+}
+
 /* TRANSITION */
 
 a,
