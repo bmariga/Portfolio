@@ -340,8 +340,9 @@ section {
 
 /* SKILL SECTION */
 
-#experience {
+#skills {
   position: relative;
+  margin-top: 30px;
 }
 
 .experience-sub-title {
@@ -381,6 +382,7 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-top: 30px;
 }
 
 .color-container {
@@ -411,8 +413,8 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 60px;
-  /* padding-top: 50px; */
+  margin-top: 90px;
+  padding-top: 90px;
 }
 
 .contact-info-upper-container {
