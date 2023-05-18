@@ -477,5 +477,6 @@ footer p {
 
 .footer-link:hover {
   color: #eaf6f6;
+  font-size: 20px;
   transition: 0.5s;
 }
