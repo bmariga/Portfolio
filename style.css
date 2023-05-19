@@ -463,8 +463,8 @@ footer p {
 }
 
 .footer-links {
-  text-align: center;
   justify-content: space-between;
+  text-align: center;
   margin-bottom: 20px;
 
 }
