@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Dark mode -->
+    <!-- <meta name="color-scheme" content="dark"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariga Portfolio Website</title>
@@ -58,7 +60,7 @@
         <img src="assets/profile-pic.jpeg" alt="Mariga profile picture" class="profile-pic"/>
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
+        <p class="section__text__p1">Hello, my name is</p>
         <h2 class="title">N. Bruce Mariga</h2>
         <p class="section__text__p2">Front-End Developer</p>
         <div class="btn-container">
@@ -67,6 +69,12 @@
             onclick="window.open('assets/BRUCE NYARIBO CV.pdf')"
           >
             Download CV
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="window.open('assets/BRUCE NYARIBO COVER Letter.pdf')"
+          >
+            Download Cover Letter
           </button>
           <button class="btn btn-color-1" onclick="location.href='mailto:mariga.bn@gmail.com'">
             Contact
@@ -99,6 +107,7 @@
             src="assets/about-pic.png"
             alt="About picture"
             class="about-pic"
+            loading="lazy"
           />
         </div>
         <div class="about-details-container">
