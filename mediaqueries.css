@@ -75,6 +75,11 @@
   .btn-container {
     flex-wrap: wrap;
   }
+  .btn {
+    padding: 1.2rem;
+    width: 4rem;
+    border-radius: 1rem;
+  }
   .contact-info-container {
     margin: 0;
   }
