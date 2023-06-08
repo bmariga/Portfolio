@@ -253,17 +253,17 @@ section {
   border-radius: 1rem;
 }
 
-.contact-color-1,
+.btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.contact-color-1:hover,
+.btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
 }
 
-.contact-color-1,
+.btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
@@ -273,11 +273,11 @@ section {
   background: rgb(0, 0, 0);
 }
 
-.contact-color-2 {
+.btn-color-2 {
   background: none;
 }
 
-.contact-color-2:hover {
+.btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
 }
 
