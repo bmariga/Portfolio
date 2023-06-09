@@ -247,12 +247,33 @@ section {
   height: 4rem;
 }
 
-#onhoverCV {
+/* TOOLTIP */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltipText {
   visibility: hidden;
+  width: 60px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  padding: .6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
 }
-.CV-icon :hover ~ #onhoverCV{
+
+.tooltip:hover .tooltipText {
   visibility: visible;
+  opacity: 1;
 }
+
 
 /* BUTTONS */
 
