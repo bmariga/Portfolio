@@ -237,6 +237,23 @@ section {
   margin-top: 20px;
 }
 
+.mail-icon {
+  cursor: pointer;
+  height: 5rem;
+}
+
+.CV-icon {
+  cursor: pointer;
+  height: 4rem;
+}
+
+#onhoverCV {
+  visibility: hidden;
+}
+.CV-icon :hover ~ #onhoverCV{
+  visibility: visible;
+}
+
 /* BUTTONS */
 
 .btn-container {
